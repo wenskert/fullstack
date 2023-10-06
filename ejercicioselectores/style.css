@@ -1,47 +1,73 @@
-
-/* selector de elemento */
-h1{
+/* selector de elemento /
+h1 {
     color: green;
     text-align: center;
     text-transform: uppercase;
     font-size: 4rem;
 }
-/* selector de clase */
+
+* selector de clase /
 .seccion2 {
     color: red;
     text-transform: uppercase;
     text-align: center;
     font-size: 5rem;
 }
-/* selector de id  */
-#seccion3{
+
+* selector de id  *
+#seccion3 {
     color: blue;
     text-transform: uppercase;
     text-align: center;
     font-size: 4rem;
 }
-/* selector de atributo  */
-[src="img/Logo-Adecco.png"]{
+
+* selector de atributo  /
+[src="img/Logo-Adecco.png"] {
     margin: 500px;
 }
-/* selector de cadena descendiente */
-.seccion5{
+
+/ selector de cadena descendiente /
+.seccion5 {
     color: pink;
     text-transform: uppercase;
     text-align: center;
     font-size: 3rem;
 }
-/* selector de todos los hijos */
-.seccion6>h5{
+
+* selector de todos los hijos *
+.seccion6>h5 {
     color: yellow;
     text-transform: uppercase;
     text-align: center;
     font-size: 4rem;
 }
-/* selector multiple */
-.seccion7 h3, .seccion7 h6{
+
+* selector multiple *
+.seccion7 h3,
+.seccion7 h6 {
     color: purple;
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
+}*/
+.contenedor {
+    text-align: center;
+    background-color: yellow;
+    height: 300px;
+    margin-top: auto;
+    margin-right: 0;
+    margin-bottom: auto;
+    margin-left: 0;
+}
+
+.azul {
+    text-align: center;
+    background-color: blue;
+    height: 100px;
+    margin-top: auto;
+    margin-right: 50px;
+    margin-bottom: auto;
+    margin-left: 50px;
+
 }
